@@ -1,0 +1,56 @@
+{
+  "transactions": [
+    {
+      "hash": "0x449b5b1bb0345f8824c7a095fd06f87aa942060c01fe7b64a78d4fdb9c3cbbe7",
+      "transactionType": "CREATE",
+      "contractName": "ForceSolver",
+      "contractAddress": "0x7fE76caa7b9e900D7517D8bdBf3228c6cB5cF8de",
+      "function": null,
+      "arguments": [
+        "0x1f18b178eF820116BC9b01F632516d4B6C7768E4"
+      ],
+      "transaction": {
+        "type": "0x02",
+        "from": "0xa710710af7c2904758b2e3154d0978b5664f1651",
+        "gas": "0x202fa",
+        "value": "0x0",
+        "data": "0x608060405234801561001057600080fd5b506040516100ff3803806100ff83398101604081905261002f91610054565b600080546001600160a01b0319166001600160a01b0392909216919091179055610084565b60006020828403121561006657600080fd5b81516001600160a01b038116811461007d57600080fd5b9392505050565b606d806100926000396000f3fe608060405260043610601c5760003560e01c8063890d6908146021575b600080fd5b60276029565b005b6000546001600160a01b0316fffea2646970667358221220e8f42e541a61f47c8a771572bc3ef8fa342d49fbe76fc67fb75a96df3adca0d264736f6c634300081400330000000000000000000000001f18b178ef820116bc9b01f632516d4b6c7768e4",
+        "nonce": "0x27",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    },
+    {
+      "hash": "0xb2f577d7a170d9731469acfe802ad4505754d768289c27c11ecb26274f495f4f",
+      "transactionType": "CALL",
+      "contractName": "ForceSolver",
+      "contractAddress": "0x7fE76caa7b9e900D7517D8bdBf3228c6cB5cF8de",
+      "function": "solve()",
+      "arguments": [],
+      "transaction": {
+        "type": "0x02",
+        "from": "0xa710710af7c2904758b2e3154d0978b5664f1651",
+        "to": "0x7fe76caa7b9e900d7517d8bdbf3228c6cb5cf8de",
+        "gas": "0xb060",
+        "value": "0x1",
+        "data": "0x890d6908",
+        "nonce": "0x28",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [
+    "0x449b5b1bb0345f8824c7a095fd06f87aa942060c01fe7b64a78d4fdb9c3cbbe7",
+    "0xb2f577d7a170d9731469acfe802ad4505754d768289c27c11ecb26274f495f4f"
+  ],
+  "returns": {},
+  "timestamp": 1694695516,
+  "chain": 11155111,
+  "multi": false,
+  "commit": "3242f3a"
+}
